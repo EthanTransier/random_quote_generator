@@ -16,9 +16,16 @@ const ButtonGen = () => {
   }, [])
   return(
     <>
-        <h1>"{quotes.content}" - {quotes.author}</h1>
+        <h3>"{quotes.content}" - {quotes.author}</h3>
+        <div className='actions'>
+          <button></button>
+        </div>
+        <button onClick={()=>{
+          window.location.reload()
+        }}>New Quote</button>
     </>
   )
+
 }
 
 export default ButtonGen
