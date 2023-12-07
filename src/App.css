@@ -16,7 +16,7 @@ body{
   width: 50vw;
 }
 
-button{
+.newQuote{
   position: absolute;
   /* right: 3rem; */
   position: absolute;
@@ -39,4 +39,22 @@ button{
     font-size: 1.15rem;
     border-radius: 1.5rem;
     cursor: pointer;
+}
+.heartButton{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 1rem;
+  aspect-ratio: 1/1;
+}
+
+.copyButton{
+  background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    height: 1rem;
+      aspect-ratio: 1/1;
+  
 }
