@@ -1,5 +1,6 @@
 This may be the greatest thing I've ever created.
 Just press the button to get a new quote, if you can't figure that out then honestly what are you even doing.
+author: Ethan Transier
 
 # Getting Started with Create React App
 
